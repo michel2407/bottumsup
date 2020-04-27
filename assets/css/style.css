@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    scroll-behavior: smooth;
+    position: relative;
+    scroll-behavior: smooth;
+    background-color: white;
+    color: #A57940;
+    font-family: Montserrat-Regular;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+
+}
+
+#main{
+    min-height:100%;
+    position:relative;
+}
+
+
+
+/* --------------------------BANNIERE VIDEO ----------------- */
+
+.banner{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+    Pointer-events: none;
+}
+
+
+/* ------------------------------- LOGO GAUCHE ET MENU ----------------------------- */
+header{
+    position: relative;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    background-color: #ffffff;
+    padding-top: 35%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav ul{
+    padding: 3px;
+}
+
+.nav a{
+    padding: 0px 40px 80px 40px;
+    display: block;
+    text-align: center;
+    font-family: Montserrat-Regular;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    font-size: larger;
+    text-decoration: none;
+    color: #363636;
+}
+
+.nav a:hover{
+    color: #e49c30;
+    transition: 0.8s;
+}
+
+.nav .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/*----------------------------------------scrollbar---------------------------*/
+
+
+body::-webkit-scrollbar {
+    width: 0.60rem;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: #363636;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: #e49c30;
+  }
+
+
+/*----------------------------------------CORPS DE PAGE---------------------------*/
+
+p{
+    font-family: Montserrat-Regular;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    }
+
+.container {
+    display: flex;
+    }
+
+.container1 {
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.container1 h1{
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat-Regular;
+    font-size: medium;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    color: #fdfdfd;
+    background-color: #e49c30;
+    padding: 20px;
+    text-align: center;
+}
+
+.adresse{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.adresse h1{
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat-Regular;
+    font-size: medium;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    color: #e49c30;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.logo{
+    width: 30%;
+    height: auto;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: lighter;
+    color: #363636;
+}
+
+.container1 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: The Yoshi;
+    src: url("../font/theyoshi.ttf") format("truetype");
+    color: #363636;
+    text-align: center;
+    padding: 20px;
+    }
+
+.container1 p{
+    padding: 30px;
+    text-align: justify;
+}
+
+.containerLeft {
+    float: left;
+    flex-direction: column;
+    justify-content: left;
+    width: 50%;
+    background-color: #e49c30;
+}
+
+.containerLeft h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: The Yoshi;
+    src: url("../font/theyoshi.ttf") format("truetype");
+    color: #ffffff;
+    text-align: center;
+}
+
+.containerLeft p{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.containerLeft img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.containerRight {
+    float: left;
+    flex-direction: column;
+    justify-content: right;
+    width: 50%;
+    background-color: #363636;
+}
+
+
+.containerRight img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.containerRight h2{
+
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: The Yoshi;
+    src: url("../font/theyoshi.ttf") format("truetype");
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.containerRight p{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    color: #ffffff;
+    font-size: medium;
+    text-align: center;
+    padding: 20px;
+    }
+
+.containerRight ol{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    color: #ffffff;
+    font-size: medium;
+    text-align: center;
+    padding: 20px;
+   }
+
+    #form{
+    border: none;
+    }
+
+    .form {
+    justify-content: center;
+    font-size: medium;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    color: #ffffff;
+    padding: 9.6px;
+    border: none;
+    }
+
+    .champ{
+    padding: 20px;
+    }
+
+    input[type=submit]{
+    background-color: #e49c30;
+    font-size: small;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    }
+
+.container2 {
+    width: 100%;
+    height: auto;
+}
+
+
+/* ---------------------FOOTER SOCIAL NETWORK ET COPYRIGHT------------------ */
+
+footer{
+    background: #ffffff;
+    padding-top:50px;
+    padding-bottom:50px;
+    height:50px;
+    text-align: center;
+}
+
+
+.socialFooter img{
+    width: 2%;
+    height: auto;
+    margin-top: 4%;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-right: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+
+footer p{
+    padding-bottom: 50px;
+    color: #363636;
+}
+
+/*------------------------------------- PARTIE RESPONSIVE -----------------------------------*/
+
+/*----------------Demande à positionner le menu en colonne à partir de 1024px et en dessous
+                  Supprimer le surlignage au passage du curseur
+                  redimensionner la taille de la police
+                  aligner le menu sur la gauche ---------------------------------------------*/
+
+@media screen and (max-width: 1023px){
+    .navbar{
+      display: none;
+    }
+  }
+  @media screen and (min-width: 1023px) and (max-width: 1024px){
+    #navbar ul{
+      flex-direction: column;
+    }
+  }
+
+/*----------------Demande à retirer le logo à partir de 1024px et en dessous.-------------------*/
+
+@media all and (max-width: 1024px)
+{
+    .header img{
+        display: none;
+    }
+
+}
+/*----------------Demande à placer les colonnes les unes en dessous des autres et affichage a 100%.-------------------*/
+
+@media screen and (max-width: 1023px)
+ {
+    .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    }
+
+    .containerLeft{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    }
+
+    .containerRight{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+
+     }
+}
+
+@media all and (max-width: 1024px)
+{
+    .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    }
+
+    video source{
+        display: none;
+    }
+}
+
+
+/*-----Demande à appliquer la police Yoshi et Montserrat à partir de 1024px et en dessous.----------*/
+
+@font-face {
+    font-family: The Yoshi;
+    src: url("../font/theyoshi.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+  }

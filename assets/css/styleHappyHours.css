@@ -1,0 +1,46 @@
+/*---Happy Hours---*/
+.col-2Title{
+  font-size: 30px;
+  color: #EA9C29;
+  font-family: 'Fredericka the Great', cursive;
+}
+.navbar{
+  font-family: 'Fredericka the Great', cursive;
+}
+.header{
+  background: linear-gradient(0deg, rgba(55,55,55,1) 0%, rgba(55,55,55,1) 50%, rgba(255,255,255,1) 50%, rgba(246,246,246,1) 100%);
+}
+.background{
+  background-image: url("../images/13616.jpg");
+  background-size: cover; height: 600px;
+
+}
+.title{
+  color: white;
+  font-size: 50px;
+  background-color:  #EA9C29;
+  font-family: 'Fredericka the Great', cursive;
+  border-radius: 20px;
+}
+.text{
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-family: 'Fredericka the Great', cursive;
+  border-radius: 30px;
+  font-size: 40px;
+}
+.modalTitle{
+  background-color:  #EA9C29;
+  border-radius: 20px;
+}
+ul{
+  list-style-type: none;
+}
+.modal{
+  background-image: url("../images/Saint-Patrick.gif");
+  background-size: auto;
+}
+.btn{
+  background-color:  #EA9C29;
+  border-radius: 20px;
+}
